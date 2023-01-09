@@ -44,8 +44,8 @@ if __name__ == "__main__" :
     print(vars(trip002.pago))
     
     
-    trip001 = Trip(carro1, conductor, usuario1 , ruta1 , pago1 )
-    print(vars(trip001.car.drive))
+    trip001 = Trip(carro1, conductor, usuario1, ruta1, pago1)
+    print(vars(trip001.driver))
     print(vars(trip001.car))
     print(vars(trip001.user))
     print(vars(trip001.route))
